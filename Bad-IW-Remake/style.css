@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(45, 33, 69);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #787188;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 3em;
+  clear: left;
+  color: White;
+  font-family: Verdana,Geneva,sans-serif;
+}
+
+h2 {
+  clear: left;
+  color: white;
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: 40px;
+  background: linear-gradient(#D1664A, #D14F59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.wrapper {
+  margin-left: 10em;
+  margin-right: 2em;
+}
+
+.bar {
+    display: inline-block;
+    min-width: 50%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    letter-spacing: 1px;
+    font-size: large;
+
+}
+
+.tabitem-1 {
+    margin-top: 40px;
+    margin-left: 10px;
+    float: left;
+}
+
+.tabitem-2 {
+    margin-left: 2em;
+    margin-top: 40px;
+    float: left;
+}
+
+.tabitem-3 {
+    margin-left: 2em;
+    margin-top: 41px;
+    float: left;
+}
+
+.tabitem-4 {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.logo {
+    font-size: 4em;
+    margin-top: 18px;
+    float: left;
+    color: white;
+    width: 40px;
+    height: 60px;
+}
+
+.menu-img {
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.text-item {
+  color: white;
+  opacity: 50%;
+  margin-bottom: 3em;
+}
+
+.view-button {
+    color: white;
+    border-radius: 5px;
+    padding: 16px 50px;
+    margin-top: 2em;
+    font-size: 16px;
+    font-family: Verdana,Geneva,sans-serif;
+    background-color: #787188;
+    opacity: 40%;
+}
+
+.forum-button {
+    color: white;
+    border-radius: 5px;
+    padding: 16px 50px;
+    margin-top: 2em;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: Verdana,Geneva,sans-serif;
+    background-color: #787188;
+    opacity: 40%;
+}
+
+.forum-button:hover {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.view-button:hover {
+  opacity: 100%;
+  transition: 0.4s;
+}

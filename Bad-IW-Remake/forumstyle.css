@@ -1,0 +1,31 @@
+body {
+    background-color: #2D2145;
+    font-family: arial;
+}
+
+h1 {
+    color: White;
+    font-size: 330%;
+    text-align: center;
+    opacity: 40%;
+    margin-top: 19%;
+}
+
+a {
+      text-decoration: none;
+}
+
+.goback{
+    padding: 16px 50px;
+    margin-left: 45%;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 40%;
+}
+
+.goback:hover {
+    opacity: 100%;
+    transition: 0.4s;
+}
